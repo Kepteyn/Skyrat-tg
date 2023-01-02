@@ -17,6 +17,13 @@
 	suffix = "interdynefob.dmm"
 	always_place = TRUE
 
+/datum/map_template/ruin/space/skyrat/listeningoutpost
+	name = "Listening Outpost"
+	id = "listeningoutpost"
+	description = "The asteroids have ears."
+	suffix = "listeningoutpost.dmm"
+	always_place = TRUE
+
 /datum/map_template/ruin/space/skyrat/derelictferry
 	id = "derelictferry"
 	suffix = "derelictferry.dmm"
