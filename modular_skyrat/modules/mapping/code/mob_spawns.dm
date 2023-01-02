@@ -106,6 +106,17 @@
 /obj/effect/mob_spawn/ghost_role/human/ds2/syndicate_command/admiral
 	outfit = /datum/outfit/ds2/syndicate_command/admiral
 
+/obj/effect/mob_spawn/ghost_role/human/syndicatecomms
+	name = "Syndicate Comms Operative"
+	prompt_name = "a Syndicate comms operative"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper_s"
+	you_are_text = "You are a syndicate agent, assigned to a small listening post station situated near your hated enemy's top secret research facility: Space Station 13."
+	flavour_text = "Monitor enemy activity as best you can, and try to keep a low profile. Monitor enemy activity as best you can, and try to keep a low profile. Use the communication equipment to provide support to any field agents, and sow disinformation to throw Nanotrasen off your trail. Do not let the base fall into enemy hands!"
+	important_text = "DO NOT leave the base. cYou are not an antagonist. Adminhelp before antagonizing station crew."
+	outfit = /datum/outfit/ds2/syndicate
+	loadout_enabled = TRUE
+
 /obj/effect/mob_spawn/ghost_role/human/hotel_staff
 	random_appearance = FALSE
 

@@ -190,7 +190,9 @@
 /turf/open/floor/iron/small,
 /area/ruin/space/has_grav/listeningstation)
 "hq" = (
-/obj/machinery/atmospherics/components/tank/air,
+/obj/machinery/atmospherics/components/tank/air{
+	piping_layer = 4
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation)
 "hG" = (
@@ -233,7 +235,8 @@
 /area/ruin/space/has_grav/listeningstation)
 "kK" = (
 /obj/machinery/atmospherics/components/tank/air{
-	dir = 4
+	dir = 4;
+	piping_layer = 4
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation)
@@ -531,7 +534,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "AV" = (
-/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms/space{
+/obj/effect/mob_spawn/ghost_role/human/syndicatecomms{
 	dir = 8
 	},
 /turf/open/floor/iron/white/small,
@@ -918,7 +921,7 @@
 /obj/machinery/power/apc/syndicate{
 	dir = 4;
 	name = "Syndicate Listening Post APC";
-	pixel_y = -28
+	pixel_y = -26
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
