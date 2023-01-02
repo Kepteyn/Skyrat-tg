@@ -33,7 +33,7 @@
 	death_message = "beeps, its mechanical parts hissing before the chassis collapses in a loud thud."
 	gold_core_spawnable = FRIENDLY_SPAWN
 
-//The Syndicat
+	//The Syndicat
 /mob/living/simple_animal/pet/cat/Syndicat
 	name = "Syndicat"
 	desc = "The Syndicat of the Syndicate, not to be confused with the Syndi-Fox."
@@ -55,4 +55,3 @@
 	minbodytemp = 100
 	maxbodytemp = 600
 	unsuitable_atmos_damage = 0
-
