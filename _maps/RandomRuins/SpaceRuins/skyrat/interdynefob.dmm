@@ -1462,6 +1462,7 @@
 "fq" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/cold/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/firingrange)
 "fw" = (
@@ -2774,6 +2775,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/prison)
+"kS" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/obj/machinery/camera/directional/north{
+	network = list("ds2");
+	c_tag = "DS-2 Firing Range"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/skyrat/interdynefob/security/firingrange)
 "kT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
@@ -4234,6 +4245,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/item/storage/box/cups{
+	pixel_y = 12;
+	pixel_x = 4
+	},
 /obj/item/radio{
 	desc = "An old handheld radio. You could use it, if you really wanted to.";
 	icon_state = "radio";
@@ -4248,6 +4263,13 @@
 	},
 /obj/effect/turf_decal/trimline/dark/corner{
 	dir = 8
+	},
+/obj/item/reagent_containers/cup/glass/waterbottle{
+	pixel_x = 11
+	},
+/obj/item/reagent_containers/cup/glass/waterbottle{
+	pixel_x = 7;
+	pixel_y = -4
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 4
@@ -6344,13 +6366,6 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/skyrat/interdynefob/security/lawyer)
 "AX" = (
-/obj/item/reagent_containers/cup/glass/waterbottle{
-	pixel_x = 11
-	},
-/obj/item/reagent_containers/cup/glass/waterbottle{
-	pixel_x = 7;
-	pixel_y = -4
-	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/effect/turf_decal/trimline/dark/line,
 /obj/effect/turf_decal/trimline/dark/line,
@@ -9017,17 +9032,13 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/skyrat/interdynefob)
 "Nd" = (
-/obj/structure/closet/crate/secure{
-	desc = "A secure crate containing various materials for building a customised test-site.";
-	name = "Test Site Materials Crate";
-	req_access = list("brig_entrance")
-	},
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/rods/fifty,
 /obj/item/target/alien,
 /obj/item/target/clown,
 /obj/item/target,
+/obj/structure/closet/crate,
 /turf/open/floor/iron/dark/side{
 	dir = 6
 	},
@@ -12369,10 +12380,10 @@ NO
 IQ
 EL
 IQ
-NO
+IQ
 kx
 kx
-mX
+kF
 kF
 rH
 GL
@@ -12630,7 +12641,7 @@ wg
 xr
 NB
 NB
-iW
+Fw
 YA
 rs
 IQ
@@ -12684,7 +12695,7 @@ wg
 dT
 qh
 NB
-Fw
+iW
 FH
 rs
 Kf
@@ -12738,7 +12749,7 @@ wg
 cI
 qh
 NB
-Fw
+kS
 FH
 rs
 Kf
